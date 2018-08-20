@@ -133,7 +133,7 @@
 		567C0FCE24A0E7687A31CD95C20906DC /* mvenosalib */ = {
 			isa = PBXGroup;
 			children = (
-				918EAF5B212AF25C0095C381 /* StringExtension.swift */,
+				918EAF5D212AF9530095C381 /* Frameworks */,
 				F2999826D6C3003937C64E986FBF6ECA /* Pod */,
 				5AA2E5576216A7EABE87B4A35396B692 /* Support Files */,
 			);
@@ -199,6 +199,14 @@
 				45D486B2E1E5C5B345C3CCADA9E76A68 /* Products */,
 				5EFD44BB5C9AAED48BBBB2E6B51E1A3A /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		918EAF5D212AF9530095C381 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				918EAF5B212AF25C0095C381 /* StringExtension.swift */,
+			);
+			path = Frameworks;
 			sourceTree = "<group>";
 		};
 		BB64F0E0B9F790204E5621E869228E50 /* Development Pods */ = {
