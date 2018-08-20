@@ -12,7 +12,7 @@
 		8046F915FCBFE51745EC19A04F5941F3 /* Pods-mvenosalib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F5E7A7D28F3B6C688389554CE63DF8 /* Pods-mvenosalib_Example-dummy.m */; };
 		8EA17A5B24F064EB040594BE60C49875 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		8FAE4D9CF101A5802F01C6D27A7B0CC5 /* Pods-mvenosalib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 582FAC4E64002F94E44A54BDD35C7626 /* Pods-mvenosalib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		918EAF5C212AF25C0095C381 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918EAF5B212AF25C0095C381 /* StringExtension.swift */; };
+		918EAF61212B01CF0095C381 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918EAF60212B01CF0095C381 /* StringExtension.swift */; };
 		B43445DDAAC6F1B4553437275BAA49F1 /* Pods-mvenosalib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDD3C33EDFAB211CDC3EF22B70836E4 /* Pods-mvenosalib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CF544A1454EACA0E4418CF6A7D8C2AD6 /* Pods-mvenosalib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEB48D03E60EFEEAD53E5EC2612E397 /* Pods-mvenosalib_Tests-dummy.m */; };
 		D4F959E5D4D9D083F76DB1575FD3787E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
@@ -57,7 +57,7 @@
 		8BFDD8C48F8E3BE9C8901EB32B009114 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		8CB7EE2DEB4AFDE1669F8B42DB300D13 /* Pods-mvenosalib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-mvenosalib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8F46DA1596594EF8037F90ADB008ABC9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		918EAF5B212AF25C0095C381 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		918EAF60212B01CF0095C381 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DAE69C618867737AD747C15A6FB4344 /* Pods_mvenosalib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mvenosalib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DEE963F06589F9DD221DF19B7544604 /* Pods-mvenosalib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-mvenosalib_Example.modulemap"; sourceTree = "<group>"; };
@@ -204,7 +204,7 @@
 		918EAF5D212AF9530095C381 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				918EAF5B212AF25C0095C381 /* StringExtension.swift */,
+				918EAF60212B01CF0095C381 /* StringExtension.swift */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
@@ -356,7 +356,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				918EAF5C212AF25C0095C381 /* StringExtension.swift in Sources */,
+				918EAF61212B01CF0095C381 /* StringExtension.swift in Sources */,
 				1DC7B7780DC021E583D9776A58873129 /* mvenosalib-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
