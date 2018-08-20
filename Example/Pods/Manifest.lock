@@ -1,0 +1,16 @@
+PODS:
+  - mvenosalib (0.1.0)
+
+DEPENDENCIES:
+  - mvenosalib (from `../`)
+
+EXTERNAL SOURCES:
+  mvenosalib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  mvenosalib: 8855095d4e433c77d297d70211a823cf2362012f
+
+PODFILE CHECKSUM: 91998c5239d92296e550f8ac4ecf7d66b464039a
+
+COCOAPODS: 1.5.3

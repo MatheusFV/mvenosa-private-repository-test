@@ -1,0 +1,6 @@
+framework module mvenosalib {
+  umbrella header "mvenosalib-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "mvenosalib",
+  "version": "0.1.0",
+  "summary": "A short description of mvenosalib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/MatheusFV/mvenosalib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "MatheusFV": "matheus.venosa@usp.br"
+  },
+  "source": {
+    "git": "https://github.com/MatheusFV/mvenosalib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "mvenosalib/Classes/**/*"
+}

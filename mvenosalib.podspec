@@ -21,16 +21,16 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/MatheusFV/mvenosalib'
+  s.homepage         = 'https://github.com/MatheusFV/mvenosa-private-repository-test'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'MatheusFV' => 'matheus.venosa@usp.br' }
-  s.source           = { :git => 'https://github.com/MatheusFV/mvenosalib.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/MatheusFV/mvenosa-private-repository-test.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'mvenosalib/Classes/**/*'
+  s.source_files = 'mvenosalib/**/*'
   
   # s.resource_bundles = {
   #   'mvenosalib' => ['mvenosalib/Assets/*.png']
