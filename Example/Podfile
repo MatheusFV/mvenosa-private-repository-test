@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'mvenosalib_Example' do
+  pod 'mvenosalib', :path => '../'
+
+  target 'mvenosalib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
