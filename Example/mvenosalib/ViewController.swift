@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import mvenosalib
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let string = "a"
+        print(string.newString())
     }
 
     override func didReceiveMemoryWarning() {
